@@ -1,0 +1,36 @@
+.Deck {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.Deck-gimmie {
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin: 0 10px;
+}
+
+.Deck-gimmie:hover {
+    cursor: pointer;
+    background-color: #444;
+}
+
+.Deck-gimmie:active,
+.Deck-gimmie:focus {
+    outline: none;
+}
+
+.Deck-buttons {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: flex;
+    gap: 10px;
+}
+
+.Deck-cardarea {
+    margin-top: 100px;
+}
